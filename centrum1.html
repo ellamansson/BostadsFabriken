@@ -73,15 +73,80 @@ position: absolute;
     font-family: 'Halant', serif;
     padding: 15px;
 }
-  .plan
-  {
-  border: 1px solid #ccc;
-    box-shadow: 0px 0px 18px #888888;
-  }
+.plan {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0px 0px 18px #888888;
+    font-family: 'Halant', serif;
+}
+  .button1 {
+    width: auto;
+	background-color: purple;
+	border: none;
+	color: white;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	font-family: 'Halant', serif;
+	margin: 4px 2px;
+	cursor: pointer;
+	}
+	
+	   /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 10;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 </style>
 </head>
 <body>
-       <div class="header">
+	<header>
+        <div class="header">
                 <div class="logotyp"> <a href="index.html">
                         <img border="0" alt="logotyp" src="https://user-images.githubusercontent.com/54993790/67690957-155bd680-f99e-11e9-8ea7-59718134ea66.png"> </a> </div>
 
@@ -98,17 +163,24 @@ position: absolute;
   
   <div class="topnav">
         <a href="index.html">Lediga Objekt</a>
-        <a href="Minasidor.html">Mina Sidor</a>
+        <a href="minasidor.html">Mina Sidor</a>
         <a href="kontakt.html">Kontakt</a>
         <a href="omoss.html">Om Oss</a>
       </div>
       
-      <div class="main">
+      <section class="main">
       
             <img alt="planlösning" src="https://user-images.githubusercontent.com/54993790/67966361-12fab600-fc04-11e9-8f80-e4382b193d9c.png" class="plan">
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad id libero atque delectus. Beatae assumenda est, eius ducimus reprehenderit mollitia error quidem corrupti, omnis quod porro neque numquam voluptatibus dolorum.</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad id libero atque delectus. Beatae assumenda est, eius ducimus reprehenderit mollitia error quidem corrupti, omnis quod porro neque numquam voluptatibus dolorum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquam magni dolore debitis nemo ut neque provident est. Sint, molestiae sit voluptatum delectus totam saepe optio quisquam in? Pariatur, nam.</p>
              
-             </div>
+                 <strong>2 RoK</strong> Gatagatan 38 <br>
+            <strong>Område:</strong> Centrum <br>
+            <strong>Våning:</strong> 2 <br>
+            <strong>Yta:</strong> 50 m²<br>
+            <strong>Hyra:</strong> 4000 kr/mån<br>
+            <strong>Inflyttning:</strong> 2019-11-15 <br>
+                 <a href="minasidor.html" class="button button1">INTRESSEANMÄL</a>
+      </section>
          
          
              
